@@ -193,14 +193,7 @@
           <label for="address">주소 :</label>
           <input type="text" id="address" name="address" size="100" value="경상북도 포항시 북구 흥해읍 남송리 3 한동대학교 벧엘관">
         </div>
-        <br>
-        <div class="field-group">
-          <label for="delivery-date">배송 희망일</label>
-          <input type="date" id="delivery-date" name="delivery-date">
-        </div>
-      </fieldset>
 
-      <fieldset>
         <legend>배송 요청사항</legend>
         <div class="field-group">
           <select id="delivery-request" name="delivery-request" required>
@@ -222,7 +215,7 @@
         <legend>결제 수단</legend>
         <div class="payment-options">
           <div class="payment-option-item">
-            <input type="radio" id="card" name="payment_method" value="card">
+            <input type="radio" id="card" name="payment_method" value="card" checked>
             <label for="card">신용/체크카드</label>
           </div>
           <div class="payment-option-item">
